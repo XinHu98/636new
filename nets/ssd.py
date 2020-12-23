@@ -14,7 +14,7 @@ from keras.models import Model
 from nets.VGG16 import VGG16
 from nets.ssd_layers import Normalize
 from nets.ssd_layers import PriorBox
-import torch
+
 
 def SSD300(input_shape, num_classes=21, para_table = None):
     # 300,300,3
